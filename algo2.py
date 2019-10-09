@@ -10,6 +10,8 @@ import copy
 import warnings
 warnings.filterwarnings("ignore")
 
+
+
 class version_bayes:
 
     
@@ -52,4 +54,4 @@ class version_bayes:
         return best_policy, best_reward
 
 if __name__ == "__main__":
-    EvaluateChallengeSubmission(ChallengeProveEnvironment, version3, "agent_v3.csv")
+    EvaluateChallengeSubmission(ChallengeProveEnvironment, version_bayes, "agent_v2.csv")

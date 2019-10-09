@@ -62,4 +62,4 @@ class version_bayes_v3:
         return best_policy, best_reward
 
 if __name__ == "__main__":
-    EvaluateChallengeSubmission(ChallengeProveEnvironment, version3, "agent_v3.csv")
+    EvaluateChallengeSubmission(ChallengeProveEnvironment, version_bayes_v3, "agent_v3.csv")
